@@ -1,25 +1,27 @@
 ---
 layout: post
-title:  "Compos"
+title:  "Speroteck private package manager based on Composer"
 date:   2013-10-01 19:15:18
 categories: php composer
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+After some months of investigations, tries and failures we at last present
+our own package manager for `PHP` libraries.
+It is based on `composer` which contains a lot of features and the knowledge of it is a `must have` feature
+of the modern developer.
 
-Jekyll also offers powerful support for code snippets:
+It is located on [composer.speroteck.com](http://composer.speroteck.com).
 
-{% highlight php %}
-<?php
-echo "Hello";
-$test = array();
-foreach($test as $item) {
-    echo $item . "Check";
-}
-{% endhighlight %}
+Honestly I don't like their `strange` logo. But anyway it is hard to forget that `maestro` with "square" face.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+![Composer Image](http://getcomposer.org/img/logo-composer-transparent.png)
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+### How to use it is extremely simple. Some examples to impress.
+
+See full documentation on [composer](http://getcomposer.org) site and some examples in our repository [](https://gitlab.speroteck.com/speroteck/composer-repository/tree/master)
+Don't forget to ask access to see content.
+
+{% gist vdubyna/6783261 %}
+
+
+
