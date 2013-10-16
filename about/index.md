@@ -24,7 +24,7 @@ To help improve current Blog can be in the next ways
 3. Improve navigation and search
 
 Useful resources about `Jekyll`
-https://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial
+
 
 
 
