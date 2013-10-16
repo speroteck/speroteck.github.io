@@ -7,7 +7,7 @@ tags: github gitlab
 category: news
 ---
 
-Github hosting is grate and full of cool features, like `pull requests`, `network view`, `edit files` etc.
+Github hosting is grate and full of cool features, like *pull requests*, *network view*, *edit files* etc.
 I was very impressed by the work which [Gitlab Team](http://gitlab.org/team/) did to create a clone of it.
 
 I'd like to introduce our own instance [Speroteck Gitlab](gitlab.speroteck.com). Don't be shy, visit it and
