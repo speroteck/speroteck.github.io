@@ -2,6 +2,7 @@
 layout: post
 title:  "Speroteck private package manager based on Composer"
 date:   2013-10-01 19:15:18
+author: Volodymyr Dubyna
 tags: php composer
 category: news
 ---

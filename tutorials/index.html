@@ -1,0 +1,17 @@
+---
+layout: default
+title: Tutorials
+---
+
+<div id="tutorials">
+    <h1>Useful tutorials</h1>
+    <ul class="tutorials">
+        {% for post in site.posts %}
+        {% if post.category == 'tutorial' %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+            <p>{{ post.excerpt }}</p>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>

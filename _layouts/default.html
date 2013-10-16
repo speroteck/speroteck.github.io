@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/skin/default/css/syntax.css">
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/skin/default/css/main.css">
-    </head>
-    <body>
-        <div class="site">
-          <div class="header">
-            <a href="/" class="logo"><img src="/skin/default/images/logo.png" alt="Speroteck Inc." /></a>
-            <a class="extra" href="/news.html">News</a>
-            <a class="extra" href="/projects.html">Projects</a>
-            <a class="extra" href="/about.html">About</a>
-            <a class="extra" href="http://speroteck.com">Main Site</a>
-            <a class="extra" href="/contribute.html">Contribute to Blog</a>
-          </div>
-          <div id="content">
-            {{ content }}
-          </div>
-          <div class="footer">
-            <div class="contact">
-              <p>
-                <a href="http://speroteck.com">Speroteck Inc.</a><br />
-                <a href="http://github.com/speroteck">Github account</a><br />
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="http://gitlab.speroteck.com">Private GIT repository</a><br />
-                <a href="http://speroteck.speroteck.com">Private PHP libs repository</a><br />
-              </p>
-            </div>
-          </div>
+<head>
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/skin/default/css/syntax.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/skin/default/css/main.css">
+</head>
+<body>
+<div class="site">
+    <div class="header">
+        <a href="/" class="logo"><img src="/skin/default/images/logo.png" alt="Speroteck Inc."/></a>
+        <a class="extra" href="/news">News</a>
+        <a class="extra" href="/tutorials">Tutorials</a>
+        <a class="extra" href="/about">About</a>
+    </div>
+    <div id="content">
+        {{ content }}
+    </div>
+    <div class="footer">
+        <div class="contact">
+            <p>
+                <a href="http://speroteck.com">Speroteck Inc.</a><br/>
+                <a href="http://github.com/speroteck">Github account</a><br/>
+            </p>
         </div>
+        <div class="contact">
+            <p>
+                <a href="http://gitlab.speroteck.com">Private GIT repository</a><br/>
+                <a href="http://composer.speroteck.com">Private PHP libs repository</a><br/>
+            </p>
+        </div>
+    </div>
+</div>
 
-    </body>
+</body>
 </html>

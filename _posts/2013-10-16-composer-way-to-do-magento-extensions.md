@@ -2,9 +2,8 @@
 layout: post
 title:  "Composer way to build magento extensions"
 date:   2013-10-16 19:15:18
-tags: php magento composer
 author: Volodymyr Dubyna
-draft: true
+tags: php magento composer
 category: tutorial
 ---
 
