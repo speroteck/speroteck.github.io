@@ -1,0 +1,120 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #FFF;
+    color: #555e58;
+    font: 16px Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+a {
+    color: #a5db59;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* HomePage */
+
+.header-wrapper {
+    padding: 10px 0;
+    background: #a5db59;
+}
+
+.logo img {
+    width: 140px;
+}
+
+#menu {
+    position: relative;
+    bottom: 10px;
+    display: inline;
+}
+
+#menu a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.header,
+.content,
+.footer {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.main {
+    padding: 20px 10px;
+    text-align: justify;
+}
+
+.footer {
+    border-top: 2px solid #e2e2e2;
+    color: #555e58;
+    text-align: center;
+}
+
+
+.footer a {
+    font-weight: bold;
+    color: #555e58;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+@media (max-width: 1124px) {
+    .header,
+    .content,
+    .footer, p {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        min-width: 320px;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    #menu {
+        position: static;
+        display: block;
+    }
+
+    .footer a {
+        display: block;
+        width: 100%;
+        padding: 5px 0;
+    }
+}
