@@ -10,7 +10,7 @@ category: about
 This is draft version of company blog on the way of migration to full functional version.
 There we will collect content. But it can be useful even now for developers.
 
-Site uses [Jekyll]()
+Site uses [Jekyll](http://jekyllrb.com)
 
 
 
