@@ -42,7 +42,6 @@ a:hover {
 /* HomePage */
 
 .header-wrapper {
-    padding: 10px 0;
     background: #a5db59;
 }
 
@@ -66,8 +65,9 @@ a:hover {
 .header,
 .content,
 .footer {
-    width: 1024px;
+    width: 960px;
     margin: 0 auto;
+    text-align: left;
 }
 
 .main {
@@ -89,7 +89,7 @@ a:hover {
     white-space: nowrap;
 }
 
-@media (max-width: 1124px) {
+@media (max-width: 960px) {
     .header,
     .content,
     .footer, p {
