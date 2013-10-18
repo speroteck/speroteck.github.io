@@ -31,16 +31,19 @@ p { margin: 1em 0; }
 /* Home
 /*
 /*****************************************************************************/
-ul.posts {
+ul.posts,
+ul.tutorials {
   list-style-type: none;
   margin-bottom: 2em;
 }
 
-ul.posts li {
+ul.posts li,
+ul.tutorials li {
   line-height: 1.75em;
 }
 
-ul.posts span {
+ul.posts span,
+ul.tutorials span {
   color: #aaa;
   font-family: Monaco, "Courier New", monospace;
   font-size: 80%;
