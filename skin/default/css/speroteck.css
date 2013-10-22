@@ -98,6 +98,10 @@ a:hover {
     padding-top: 20px;
 }
 
+.post p {
+    line-height: 1.75em;
+}
+
 #disqus_thread {
     margin-top: 10px;
     padding-top: 10px;
