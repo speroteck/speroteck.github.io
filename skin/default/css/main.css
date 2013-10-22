@@ -42,6 +42,7 @@ ul.tutorials li {
   line-height: 1.75em;
 }
 
+span.date,
 ul.posts span,
 ul.tutorials span {
   color: #aaa;
