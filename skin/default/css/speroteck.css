@@ -75,6 +75,10 @@ a:hover {
     text-align: justify;
 }
 
+.main h2 {
+    font-size: 20px;
+}
+
 .footer {
     border-top: 2px solid #e2e2e2;
     color: #555e58;
@@ -87,6 +91,18 @@ a:hover {
     color: #555e58;
     margin-right: 10px;
     white-space: nowrap;
+    padding: 15px 0;
+}
+
+.social-buttons {
+    padding-top: 20px;
+}
+
+#disqus_thread {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 2px solid rgba(0,49,79,.08);
+    
 }
 
 @media (max-width: 960px) {
