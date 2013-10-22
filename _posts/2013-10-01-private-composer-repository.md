@@ -24,8 +24,9 @@ See full documentation on [composer](http://getcomposer.org) site and some examp
 Don't forget to ask access to see content.
 
 {% highlight bash linenos %}
-# Add Speroteck repository to global configuration of composer
+# Add Speroteck repository to global configuration of composer and public magento repository
 composer config --global repositories.speroteck composer http://composer.speroteck.com/
+composer config --global repositories.firegento composer http://packages.firegento.com/
 
 # Look for speroteck repositories
 composer search speroteck
