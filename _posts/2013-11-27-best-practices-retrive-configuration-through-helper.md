@@ -1,8 +1,11 @@
-
-
-Best practices.
-
-Retrive configuration value by config name through Helper
+---
+layout: post
+title:  "Best practices: Retrive configuration value by config name through Helper"
+date:   2013-11-27 19:15:18
+author: Volodymyr Dubyna
+tags: magento best-practices
+category: news
+---
 
 This practice appeared to simplify using configuration settings.
 Example: to retrive next configuration value `speroteck_pagecache/pagecache_config/black_list` is not 
