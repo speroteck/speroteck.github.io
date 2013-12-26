@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Don't let compiled css files conflict in a rebase"
-date:   2013-12-26 14:10:18
+date:   2013-12-26 15:09:18
 author: Den Kezlya
 tags: 
 category: tutorial
