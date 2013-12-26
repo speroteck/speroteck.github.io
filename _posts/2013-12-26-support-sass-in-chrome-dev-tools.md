@@ -16,21 +16,18 @@ First of all we need correct compass and sass versions with source-map compatibi
 * compass-sourcemaps - 0.12.2.sourcemaps.57a186c
 
 Installtions:
-
 ```php
 gem install sass -v 3.3.0.alpha.149 --pre
 gem install compass-sourcemaps -v 0.12.2.sourcemaps.57a186c --pre
 ```
 
 If you have different version, you can uninstall them by commands bellow:
-
 ```php
 gem uninstall sass
 gem uninstall compass
 ```
 
 Now we need to update compass config by adding line:
-
 ```php
 sass_options = {:sourcemap => true}
 ```
