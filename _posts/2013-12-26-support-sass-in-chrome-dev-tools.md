@@ -15,21 +15,21 @@ sass - 3.3.0.alpha.149
 compass-sourcemaps - 0.12.2.sourcemaps.57a186c
 
 Installtions:
-{% highlight bash linenos %}
+```php
 gem install sass -v 3.3.0.alpha.149 --pre
 gem install compass-sourcemaps -v 0.12.2.sourcemaps.57a186c --pre
-{% endhighlight %}
+```
 
 If you have different version, you can uninstall them by commands bellow:
-{% highlight bash linenos %}
+```php
 gem uninstall sass
 gem uninstall compass
-{% endhighlight %}
+```
 
 Now we need to update compass config by adding line:
-{% highlight bash linenos %}
+```php
 sass_options = {:sourcemap => true}
-{% endhighlight %}
+```
 
 Ok. Let's make changes in chrome setting.
 To enable CSS source maps and CSS reload:
