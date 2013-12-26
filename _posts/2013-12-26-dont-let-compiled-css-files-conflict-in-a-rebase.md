@@ -10,13 +10,13 @@ category: tutorial
 We don’t want compiled css files to merge, we just want their source files to merge cleanly.
 
 Set up a merge driver in your **.git/config** file:
-```php
+```ini
 [merge "ours"]
     name = "Keep ours merge"
     driver = true
 ```
 Then tell your built files to use that merge driver in your **.gitattributes** file:
-```php
+```ini
 src/skin/frontend/responsivetheme/default/css/app.css merge=ours
 src/skin/frontend/responsivetheme/default/css/app.css.map merge=ours
 ```
