@@ -9,7 +9,7 @@ category: tutorial
 
 We don’t want compiled css files to merge, we just want their source files to merge cleanly.
 
-*Set up a merge driver in your **.git/config** file:
+Set up a merge driver in your **.git/config** file:
 ```php
 [merge "ours"]
     name = "Keep ours merge"
