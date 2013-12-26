@@ -4,7 +4,7 @@ title:  "Support Sass in Chrome Dev Tools"
 date:   2013-12-26 14:10:18
 author: Den Kezlya
 tags: 
-category: news
+category: tutorial
 ---
 
 While working with Compass (sass), we have to have opportunity of debugging scss files.
