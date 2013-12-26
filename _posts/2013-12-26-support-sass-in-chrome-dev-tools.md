@@ -34,6 +34,6 @@ sass_options = {:sourcemap => true}
 Ok. Let's make changes in chrome setting.
 To enable CSS source maps and CSS reload:
 1. Open new tab with link chrome://flags/#enable-devtools-experiments and enable "Developer Tools experiments" support. Reload your browser.
-2. Open DevTools Settings and click General.
-3. Turn on Enable CSS source maps and Auto-reload generated CSS.
-![Dev Tools](http://habrastorage.org/storage2/d9f/fe9/875/d9ffe98756c7fa0d28614e90663785aa.jpg)
+2. 2. Open DevTools Settings and click General.
+3. 3. Turn on Enable CSS source maps and Auto-reload generated CSS.
+4. ![Dev Tools](http://habrastorage.org/storage2/d9f/fe9/875/d9ffe98756c7fa0d28614e90663785aa.jpg)
