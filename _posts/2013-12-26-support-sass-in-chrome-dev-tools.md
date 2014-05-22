@@ -12,13 +12,13 @@ While working with Compass (sass), we have to have opportunity of debugging scss
 ![Dev Tools](https://developers.google.com/chrome-developer-tools/docs/css-preprocessors-files/sass-debugging.png)
 
 First of all we need correct compass and sass versions with source-map compatibility. 
-* sass - 3.3.0.alpha.149 
-* compass-sourcemaps - 0.12.2.sourcemaps.57a186c
+* sass - 3.3.0.alpha.134 
+* compass-sourcemaps - 0.12.4.sourcemaps.a4836f1
 
 Installtions:
 ```bash
-gem install sass -v 3.3.0.alpha.149 --pre
-gem install compass-sourcemaps -v 0.12.2.sourcemaps.57a186c --pre
+gem install sass -v 3.3.0.alpha.134 --pre
+gem install compass-sourcemaps -v 0.12.4.sourcemaps.a4836f1 --pre
 ```
 
 If you have different version, you can uninstall them by commands bellow:
